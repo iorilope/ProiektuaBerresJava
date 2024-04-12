@@ -12,19 +12,17 @@ public class DatuakSartuGUITest {
 
     @Test
     public void testIndibidualakButtonClick() {
-        // Simulate clicking the button
-      
+        
     }
 
     @Test
     public void testTaldeakButtonClick() {
-        // Simulate clicking the button
- 
+
     }
 
     @Test
     public void testWindowClosing() {
-        // Simulate closing the window (implementation depends on your testing framework)
+      
       
     }
 }
