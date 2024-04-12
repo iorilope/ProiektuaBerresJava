@@ -27,10 +27,10 @@ public class DatuakSartuGUI {
 	private static JLabel aukera = new JLabel("Klikatu zure aukeran", SwingConstants.CENTER);
 
 	/** Hasierako Frame-a */
-	private static JFrame frame = new JFrame("Hasiera");
+	static JFrame frame = new JFrame("Hasiera");
 
 	/** Piraguistak aukeratzeko botoia. */
-	private static JButton piraguistak = new JButton("Piraguista taula");
+	static JButton piraguistak = new JButton("Piraguista taula");
 
 	/** Indibidualak aukeratzeko botoiak */
 	private static JButton indibidualak = new JButton("Lehiaketa indibidualak taula");

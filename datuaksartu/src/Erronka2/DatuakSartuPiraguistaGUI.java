@@ -24,7 +24,7 @@ import java.io.FileWriter;
 public class DatuakSartuPiraguistaGUI {
 
 	/** Piraguisten Frame-a. */
-	private static JFrame frame2 = new JFrame("Piraguista berriak taulan sartzeko aukera");
+	static JFrame frame2 = new JFrame("Piraguista berriak taulan sartzeko aukera");
 
 	/** Datu panela */
 	private static JPanel datuak = new JPanel();
@@ -57,7 +57,7 @@ public class DatuakSartuPiraguistaGUI {
 	private static JTextArea erregistroa = new JTextArea();
 
 	/** Datuak Erregistroan sartzeko botoia */
-	private static JButton datuaksartu = new JButton("Datuak sartu");
+	static JButton datuaksartu = new JButton("Datuak sartu");
 
 	/** Fitxategia sortzeko botoia */
 	private static JButton fitxategiasortu = new JButton("Fitxategia sortu");
