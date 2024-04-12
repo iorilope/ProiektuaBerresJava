@@ -10,6 +10,18 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 
+/**
+ * Txapelketa batean ekipoekin lotutako datuak sartzeko interfaze grafiko bat
+ * ematen duen klasea. Klase honek "talde_txapelketa_id", "taldekod",
+ * "taldetxapdenbora" eta "erregistroa" bezalako osagaiak barne hartzen ditu.
+ * "datuaksartu" eta "fitxategiasortu" botoiekin batera, datuak sartzeko eta
+ * fitxategiak sortzeko, hurrenez hurren. "PantailaErakutsi ()" metodoak
+ * interfaze grafikoa erakusten du eta botoietarako ActionListenerrak
+ * konfiguratzen ditu "datuaksartu" eta "fitxategiasortu", datuak sartzeko eta
+ * sartutako datuekin fitxategiak sortzeko, hurrenez hurren. Gainera, osagaiak
+ * dituen JFrame-aren antolaera eta tamaina konfiguratzen ditu.
+ */
+
 public class DatuakSartuTaldeaGUI {
 
 	/** Taldearen Frame-a */

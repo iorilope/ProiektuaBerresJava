@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Erronka2","l":"DatuakSartuPiraguistaGUI"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Erronka2","l":"DatuakSartuGUI"},{"p":"Erronka2","l":"DatuakSartuIndibidualGUI"},{"p":"Erronka2","l":"DatuakSartuMain"},{"p":"Erronka2","l":"DatuakSartuPiraguistaGUI"},{"p":"Erronka2","l":"DatuakSartuTaldeaGUI"},{"p":"Erronka2","l":"Indibiduala"},{"p":"Erronka2","l":"Piraguista"},{"p":"Erronka2","l":"Taldea"}];updateSearchResults();
