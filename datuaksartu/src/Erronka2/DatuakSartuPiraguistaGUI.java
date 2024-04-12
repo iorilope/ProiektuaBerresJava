@@ -23,7 +23,7 @@ import java.io.FileWriter;
 
 public class DatuakSartuPiraguistaGUI {
 
-	/** The frame 2. */
+	/** Piraguisten Frame-a. */
 	private static JFrame frame2 = new JFrame("Piraguista berriak taulan sartzeko aukera");
 
 	/** Datu panela */
@@ -140,11 +140,11 @@ public class DatuakSartuPiraguistaGUI {
 				Piraguista piraguista = new Piraguista(nanData, izenaData, abizenaData, generoaData, telefonoaData,
 						herriaData, talde_kodeaData, txapelketakData);
 
-				String datosPiraguista = piraguista.getNan() + "\t" + piraguista.getIzena() + "\t"
+				String datuPiraguista = piraguista.getNan() + "\t" + piraguista.getIzena() + "\t"
 						+ piraguista.getAbizena() + "\t" + piraguista.getGeneroa() + "\t" + piraguista.getTelefonoa()
 						+ "\t" + piraguista.getHerria() + "\t" + piraguista.getTalde_kodea() + "\t"
 						+ piraguista.getTxapelketak() + "\n";
-				erregistroa.append(datosPiraguista);
+				erregistroa.append(datuPiraguista);
 			}
 		});
 

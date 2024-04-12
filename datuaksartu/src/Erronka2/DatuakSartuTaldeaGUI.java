@@ -12,7 +12,7 @@ import java.io.FileWriter;
 
 public class DatuakSartuTaldeaGUI {
 
-	/** frame 4. */
+	/** Taldearen Frame-a */
 	private static JFrame frame4 = new JFrame("Talde lehiaketa berrien emaitzak sartzeko aukera");
 
 	/** Taldearen Datuen Panela. */
@@ -78,9 +78,9 @@ public class DatuakSartuTaldeaGUI {
 
 				Taldea taldea = new Taldea(txapelketaId, taldeKod, taldetxapDenbora);
 
-				String datosTaldea = taldea.getTxapelketaId() + "\t" + taldea.getTaldeKod() + "\t"
+				String datuTaldea = taldea.getTxapelketaId() + "\t" + taldea.getTaldeKod() + "\t"
 						+ taldea.getTaldetxapDenbora() + "\n";
-				erregistroa.append(datosTaldea);
+				erregistroa.append(datuTaldea);
 			}
 		});
 
