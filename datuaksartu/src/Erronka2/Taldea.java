@@ -1,26 +1,25 @@
 
 package Erronka2;
 
-
 /**
  * Taldea klasea
  */
 public class Taldea {
-	
+
 	/** Txapelketaren ID-a */
 	private String txapelketaId;
-	
+
 	/** Taldearen Kodea */
 	private String taldeKod;
-	
+
 	/** Taldearen Txapelketa denbora */
 	private String taldetxapDenbora;
 
 	/**
 	 * Talde berri bat hasieratzen du
 	 *
-	 * @param txapelketaId, Txapelketaren ID-a
-	 * @param taldeKod, Taldearen Kodea
+	 * @param txapelketaId,     Txapelketaren ID-a
+	 * @param taldeKod,         Taldearen Kodea
 	 * @param taldetxapDenbora, Taldearen denbora Txapelketan
 	 */
 	public Taldea(String txapelketaId, String taldeKod, String taldetxapDenbora) {

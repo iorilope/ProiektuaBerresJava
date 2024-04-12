@@ -1,5 +1,4 @@
 
-
 package Erronka2;
 
 import javax.swing.*;
@@ -10,7 +9,6 @@ import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-
 
 /**
  * DatuakSartuIndibidualGUI Klasea
@@ -62,12 +60,13 @@ public class DatuakSartuIndibidualGUI {
 		datuak.add(fitxategiasortu);
 
 		/**
-		* "Datuaksartu" botoirako ActionListener, erabiltzaileak botoian klik egiten duenean aktibatzen dena.
-		* ActionListener honek parte-hartzaile batekin lotutako testu-eremuetan sartutako datuak atzitzen ditu
-		* banaka torneoan (piraguistaren NAN, txapelketaren ID, parte-hartzailearen denbora),
-		* "Indibiduala" klasea, datu horiekin, eta "erregistroa" testu-eremura gehitzen ditu, lerro-formatuan eta
-		* tabulazioak eta ondoren lerro-jauzi bat.
-		*/
+		 * "Datuaksartu" botoirako ActionListener, erabiltzaileak botoian klik egiten
+		 * duenean aktibatzen dena. ActionListener honek parte-hartzaile batekin
+		 * lotutako testu-eremuetan sartutako datuak atzitzen ditu banaka torneoan
+		 * (piraguistaren NAN, txapelketaren ID, parte-hartzailearen denbora),
+		 * "Indibiduala" klasea, datu horiekin, eta "erregistroa" testu-eremura gehitzen
+		 * ditu, lerro-formatuan eta tabulazioak eta ondoren lerro-jauzi bat.
+		 */
 		datuaksartu.addActionListener(new ActionListener() {
 			String textuerregistroa = "";
 
@@ -87,12 +86,15 @@ public class DatuakSartuIndibidualGUI {
 			}
 		});
 		/**
-		* "Fitxategiasortu" botoirako ActionListener, erabiltzaileak botoian klik egiten duenean aktibatzen dena.
-		* ActionListener honek erabiltzaileari eskatzen dio sar dezala fitxategia eta artxiboaren izena gorde nahi dituen ibilbide osoa.
-		* Gero, testu-fitxategi bat sortzen du zehaztutako kokalekuan, eta "erregistroa" testu-arloaren edukia idazten du fitxategi sortu berrian.
-		* Azkenik, berrespen-mezu bat erakusten dio erabiltzaileari, fitxategia arrakastaz sortu dela adierazteko.
-		* Prozesuan erroreren bat gertatzen bada, salbuespen-pila inprimatu kontsolan.
-		*/
+		 * "Fitxategiasortu" botoirako ActionListener, erabiltzaileak botoian klik
+		 * egiten duenean aktibatzen dena. ActionListener honek erabiltzaileari eskatzen
+		 * dio sar dezala fitxategia eta artxiboaren izena gorde nahi dituen ibilbide
+		 * osoa. Gero, testu-fitxategi bat sortzen du zehaztutako kokalekuan, eta
+		 * "erregistroa" testu-arloaren edukia idazten du fitxategi sortu berrian.
+		 * Azkenik, berrespen-mezu bat erakusten dio erabiltzaileari, fitxategia
+		 * arrakastaz sortu dela adierazteko. Prozesuan erroreren bat gertatzen bada,
+		 * salbuespen-pila inprimatu kontsolan.
+		 */
 		fitxategiasortu.addActionListener(new ActionListener() {
 
 			@Override

@@ -1,61 +1,60 @@
 
 package Erronka2;
 
-
 /**
-* Piraguista baten klasea.
-*/
+ * Piraguista baten klasea.
+ */
 
 public class Piraguista {
-    
-    /** Piraguistaren NAN */
-    private String nan;
-    
-    /** Piraguistaren Izena */
-    private String izena;
-    
-    /** TPiraguistaren Abizena */
-    private String abizena;
-    
-    /** Piraguistaren Generoa*/
-    private String generoa;
-    
-    /**Piraguistaren Telefonoa*/
-    private String telefonoa;
-    
-    /** Piraguistaren Herria */
-    private String herria;
-    
-    /** Piraguistaren Talde Kodea */
-    private String talde_kodea;
-    
-    /** Piraguistak jokatutako Txapelketa kopurua */
-    private String txapelketak;
 
+	/** Piraguistaren NAN */
+	private String nan;
 
-    /**
-    * Piraguista klasearen eraikitzailea.
-    *
-    * @param nan piraguistaren identifikazio-zenbakia (NAN).
-    * @param izena Piraguistaren izena.
-    * @param abizena Piraguistaren abizena.
-    * @param generoa Piraguistaren generoa.
-    * @param telefonoa Piraguistaren telefono-zenbakia.
-    * @param herria Piraguistaren hiria edo herria.
-    * @param talde_kodea Piraguistaren talde-kodea.
-    * @param txapelketak Piraguistak parte hartu duen txapelketa kopurua.
-    */
-    
-    public Piraguista(String nan, String izena, String abizena, String generoa, String telefonoa, String herria, String talde_kodea, String txapelketak) {
-        this.nan = nan;
-        this.izena = izena;
-        this.abizena = abizena;
-        this.generoa = generoa;
-        this.telefonoa = telefonoa;
-        this.herria = herria;
-        this.talde_kodea = talde_kodea;
-        this.txapelketak = txapelketak;
-    }
+	/** Piraguistaren Izena */
+	private String izena;
+
+	/** TPiraguistaren Abizena */
+	private String abizena;
+
+	/** Piraguistaren Generoa */
+	private String generoa;
+
+	/** Piraguistaren Telefonoa */
+	private String telefonoa;
+
+	/** Piraguistaren Herria */
+	private String herria;
+
+	/** Piraguistaren Talde Kodea */
+	private String talde_kodea;
+
+	/** Piraguistak jokatutako Txapelketa kopurua */
+	private String txapelketak;
+
+	/**
+	 * Piraguista klasearen eraikitzailea.
+	 *
+	 * @param nan         piraguistaren identifikazio-zenbakia (NAN).
+	 * @param izena       Piraguistaren izena.
+	 * @param abizena     Piraguistaren abizena.
+	 * @param generoa     Piraguistaren generoa.
+	 * @param telefonoa   Piraguistaren telefono-zenbakia.
+	 * @param herria      Piraguistaren hiria edo herria.
+	 * @param talde_kodea Piraguistaren talde-kodea.
+	 * @param txapelketak Piraguistak parte hartu duen txapelketa kopurua.
+	 */
+
+	public Piraguista(String nan, String izena, String abizena, String generoa, String telefonoa, String herria,
+			String talde_kodea, String txapelketak) {
+		this.nan = nan;
+		this.izena = izena;
+		this.abizena = abizena;
+		this.generoa = generoa;
+		this.telefonoa = telefonoa;
+		this.herria = herria;
+		this.talde_kodea = talde_kodea;
+		this.txapelketak = txapelketak;
+	}
 
 	/**
 	 * @return Piraguistaren NAN-a
@@ -169,7 +168,4 @@ public class Piraguista {
 		this.txapelketak = txapelketak;
 	}
 
-   
-
-    
 }

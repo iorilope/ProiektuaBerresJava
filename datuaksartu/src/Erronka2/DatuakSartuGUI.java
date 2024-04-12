@@ -1,5 +1,4 @@
 
-
 package Erronka2;
 
 import javax.swing.*;
@@ -14,12 +13,16 @@ import java.io.File;
 import java.io.FileWriter;
 
 /**
-* Interfaze grafikoa kudeatzen duen klasea, datuak programan sartzeko.
-* Mota honek "aukera", "piraguistak", "indibidualak" eta "taldeak" bezalako osagaiak ditu, leiho nagusira gehitzen direnak.
-* "ElementuakJarri ()" metodo bat eskaintzen du, leihoari osagaiak gehitzen dizkiona, haien diseinua eta tamaina ezartzen dituena eta ikusgarri egiten dituena.
-* "Piraguistak", "indibidualak" eta "taldeak" botoietarako ActionListeners ere badu. Botoi horiek dagozkien metodoak aipatzen dituzte.
-* beste klase batzuetakoak, interfaze grafikoak erakusteko, piraguistekin, banakako parte-hartzaileekin eta taldeekin zerikusia duten datuak sartzeko, hurrenez hurren.
-*/
+ * Interfaze grafikoa kudeatzen duen klasea, datuak programan sartzeko. Mota
+ * honek "aukera", "piraguistak", "indibidualak" eta "taldeak" bezalako osagaiak
+ * ditu, leiho nagusira gehitzen direnak. "ElementuakJarri ()" metodo bat
+ * eskaintzen du, leihoari osagaiak gehitzen dizkiona, haien diseinua eta
+ * tamaina ezartzen dituena eta ikusgarri egiten dituena. "Piraguistak",
+ * "indibidualak" eta "taldeak" botoietarako ActionListeners ere badu. Botoi
+ * horiek dagozkien metodoak aipatzen dituzte. beste klase batzuetakoak,
+ * interfaze grafikoak erakusteko, piraguistekin, banakako parte-hartzaileekin
+ * eta taldeekin zerikusia duten datuak sartzeko, hurrenez hurren.
+ */
 
 public class DatuakSartuGUI {
 
